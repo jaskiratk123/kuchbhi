@@ -1,0 +1,124 @@
+.intro-container {
+  position: relative;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px;
+  border-radius: 40px 40px 0 0;
+  border-color: black;
+  background-color: black;
+  z-index: auto;
+}
+.intro-wrapper {
+  display: flex;
+  color: white;
+  padding: 30px 80px 30px 80px;
+}
+.left-about {
+  flex: 1;
+  display: flex;
+}
+.left-about > .about-title {
+  font-size: 60px;
+  font-family: trip-sans;
+}
+
+.right-desc {
+  flex: 2;
+  font-size: 24px;
+  font-family: trip-sans-reg;
+  font-weight: bold;
+}
+
+.right-desc > .desc-content > sub,
+.right-desc > .desc-content > sup {
+  font-size: 18px;
+  font-weight: bold;
+}
+.right-desc > .desc-content {
+  width: 100%;
+}
+
+.job-description {
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+}
+
+.job-description > .job-description-head {
+  font-size: 12px;
+
+  text-transform: uppercase;
+}
+.job-description > .current-job {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+}
+.job-description > .current-job > .description {
+  padding-left: 14px;
+}
+
+.job-description > .current-job > .description > p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.job-description > .current-job > .description > p:nth-child(2) {
+  font-size: 12px;
+  color: #808080;
+}
+.job-description > .current-job > .company-logo {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.12);
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+  justify-content: center;
+}
+.job-description > .current-job > .company-logo > img {
+  height: 30px;
+}
+
+@media screen and (min-width: 1500px) {
+  .left-about > .about-title {
+    font-size: 90px;
+  }
+  .right-desc {
+    font-size: 32px;
+  }
+  .job-description > .job-description-head {
+    font-size: 16px;
+  }
+  .job-description > .current-job > .company-logo {
+    height: 66.65px;
+    width: 66.65px;
+  }
+  .job-description > .current-job > .company-logo > img {
+    height: 40px;
+  }
+  .job-description > .current-job > .description > p {
+    font-size: 18.662px;
+  }
+  .job-description > .current-job > .description > p:nth-child(2) {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 1030px) {
+  .intro-wrapper {
+    flex-direction: column;
+  }
+
+  .intro-wrapper > .right-desc {
+    margin-top: 15px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .intro-wrapper {
+    padding: 30px;
+  }
+}

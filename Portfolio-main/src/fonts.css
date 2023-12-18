@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'trip-sans-reg';
+  src: url('./fonts/trip-sans.otf') format('opentype');
+}
+@font-face {
+  font-family: 'catcheye';
+  src: url('./fonts/Catchye.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Grstk-Mega-Brand';
+  src: url('./fonts/TRYGrtsk-[wght,wdth,slnt].ttf')
+    format('truetype-variations');
+  font-weight: 800; /* default weight */
+  font-style: normal; /* default style */
+  font-stretch: 120%;
+}
+
+@font-face {
+  font-family: 'trip-sans';
+  src: url('./fonts/trip-sans-variable.ttf') format('truetype-variations');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Menlo';
+  src: url('./fonts/Menlo-Regular.ttf') format('truetype-variations');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Zeyada';
+  src: url('./fonts/Zeyada.ttf') format('truetype-variations');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('./fonts/Poppins-Regular.ttf') format('truetype-variations');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Grstk-Mega';
+  src: url('./fonts/TRYGrtsk-[wght,wdth,slnt].ttf')
+    format('truetype-variations');
+  font-weight: 700; /* default weight */
+  font-style: normal; /* default style */
+  font-stretch: 200%;
+  font-variation-settings: 'wdth' 1000, 'wght' 700, 'slnt' 0;
+}

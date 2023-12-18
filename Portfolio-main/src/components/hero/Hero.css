@@ -1,0 +1,131 @@
+.hero-container {
+  height: 100vh;
+  background-color: #d4d4d4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  z-index: -2;
+  top: 0;
+}
+
+.hero-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.hero-wrapper > .hero-caption {
+  width: 900px;
+  text-align: center;
+  height: 390px;
+  position: relative;
+}
+
+.hero-wrapper > .hero-caption > div > span {
+  font-size: 90px;
+  font-family: catcheye;
+  text-align: center;
+  color: rgb(44, 44, 44);
+  line-height: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-wrap: nowrap;
+}
+
+.hero-wrapper > .hero-caption > div > span:nth-child(1) {
+  top: 11%;
+}
+
+.hero-wrapper > .hero-caption > div > span:nth-child(3) {
+  font-style: italic;
+  top: 32%;
+  left: 26%;
+}
+.hero-wrapper > .hero-caption > div > span:nth-child(4) {
+  font-style: italic;
+  top: 32%;
+  left: 78%;
+}
+
+.hero-wrapper > .hero-caption > div > span:nth-child(6) {
+  top: 53%;
+  left: 21%;
+}
+.hero-wrapper > .hero-caption > div > span:nth-child(7) {
+  left: 75.5%;
+  top: 53%;
+}
+.hero-wrapper > .hero-caption > div > span:nth-child(9) {
+  top: 74%;
+  left: 31.5%;
+}
+.hero-wrapper > .hero-caption > div > span:nth-child(10) {
+  top: 74%;
+  left: 70.1%;
+}
+.hero-wrapper > .hero-caption > div > span:nth-child(11) {
+  top: 95%;
+}
+
+.hero-wrapper > img {
+  position: absolute;
+  z-index: 1;
+  height: 270px;
+  box-shadow: 0 50px 100px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (min-width: 1500px) {
+  .hero-wrapper > .hero-caption {
+    width: 1200px;
+    height: 520px;
+  }
+  .hero-wrapper > img {
+    height: 360px;
+  }
+  .hero-wrapper > .hero-caption > div > span {
+    font-size: 120px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .hero-wrapper > .hero-caption {
+    width: 600px;
+    height: 260px;
+  }
+  .hero-wrapper > img {
+    height: 180px;
+  }
+  .hero-wrapper > .hero-caption > div > span {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hero-wrapper > .hero-caption {
+    width: 400px;
+    height: 175px;
+  }
+  .hero-wrapper > img {
+    height: 120px;
+  }
+  .hero-wrapper > .hero-caption > div > span {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .hero-wrapper > .hero-caption {
+    width: 370px;
+    height: 170px;
+  }
+  .hero-wrapper > img {
+    height: 109px;
+  }
+  .hero-wrapper > .hero-caption > div > span {
+    font-size: 38px;
+  }
+}
